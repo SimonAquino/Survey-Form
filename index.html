@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Survey</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <h1 id="title">Survey Form</h1>
-    <p id="description">Please take a ling moment to complete our survey.</p>
+    <p id="description">Please take a little moment to complete our adorable survey.</p>
     <form id="survey-form">
-        <label for="name" id="name-label">Name:</label>
+        <label for="name">Name:</label>
         <input type="text" id="name" placeholder="Enter your name" required>
         
-        <label for="email" id="email-label">Email:</label>
+        <label for="email">Email:</label>
         <input type="email" id="email" placeholder="Enter your email" required>
         
-        <label for="number" id="number-label">Age:</label>
+        <label for="number">Age:</label>
         <input type="number" id="number" placeholder="Enter your age" min="18" max="100" required>
-        
+         
         <label for="dropdown">Select Your Gender:</label>
         <select id="dropdown">
             <option value="option1">Male</option>
             <option value="option2">Female</option>
         </select>
         
-        <label>Do you like cats, dogs or both:</label>
+        <label>Do you like cats, dogs, or both:</label>
         <input type="radio" name="radio-group" value="radio1"> Cat
         <input type="radio" name="radio-group" value="radio2"> Dog
         <input type="radio" name="radio-group" value="radio3"> Both
@@ -32,9 +33,9 @@
         <label>What is your favorite thing about your cat or dog? Select all that apply:</label>
         <input type="checkbox" id="checkbox1" value="checkbox1"> Their companionship
         <input type="checkbox" id="checkbox2" value="checkbox2"> Their playful nature
-        <input type="checkbox" id="checkbox2" value="checkbox3"> Their unconditional love
+        <input type="checkbox" id="checkbox3" value="checkbox3"> Their unconditional love
         
-        <label for="comments">Additional information about why you like them :</label>
+        <label for="comments">Additional information about why you like them:</label>
         <textarea id="comments" rows="4" cols="50"></textarea>
         
         <input type="submit" id="submit" value="Submit">
